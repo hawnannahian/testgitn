@@ -1,0 +1,58 @@
+.wrapper{
+	width: 960px;
+	margin: 5px auto;
+	background: white;
+}
+body{
+	background: url(it.jpg)repeat fixed;
+}
+.header{
+
+}
+.header img{
+	width: 100%;
+	height: auto;
+}
+
+.mainmenu{background: yellow}
+
+.mainmenu ul{
+	margin: 10px;
+	padding: 1px;
+	list-style: none;}
+
+.mainmenu ul li{
+	display:inline-block;}
+
+.mainmenu ul li a {
+	color:black;
+	padding: 15px;
+	display: inline-block;
+	text-decoration: none;}
+
+.mainmenu ul li a:hover {
+	background: red}
+
+.maincontent{
+	overflow: hidden;
+	padding: 10px;
+}
+
+.content{
+	width: 610px;
+	float: left;
+	background: yellow;
+	padding: 5px;
+}
+.sidebar {
+    width: 300px;
+    float: right;
+    background: yellow;
+    padding: 5px;
+}
+.footer{
+	background: black;
+	color: white;
+	padding: 10px
+}
+
